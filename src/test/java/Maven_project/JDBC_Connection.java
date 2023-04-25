@@ -29,7 +29,7 @@ public class JDBC_Connection {
 			Statement s=con.createStatement();  
 			
 			//int value=s.executeUpdate("update sys_config set set_by='RAVALI' where value='OFF'");
-			int value=s.executeUpdate("insert into sys_config values(10,'names','nzd',50");
+			int value=s.executeUpdate("insert into sys_config values('company','data','2022-04-24 07:25:14','yes')");
 			
 			ResultSet rs=s.executeQuery("select * from sys_config");  
 			while(rs.next())  {
