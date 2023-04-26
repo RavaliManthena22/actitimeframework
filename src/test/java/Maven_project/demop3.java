@@ -8,6 +8,6 @@ public class demop3 extends Baseclass{
 @Test
 	public void test2()
 	{
-		System.out.println("demo");
+		System.out.println("Frustration bcz of rahtfdj");
 	}
 }
