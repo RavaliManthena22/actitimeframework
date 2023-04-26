@@ -8,6 +8,7 @@ public class demop2 extends Baseclass{
 @Test
 	public void test2()
 	{
-		System.out.println("demo");
+		System.out.println("Frustration peeks level"
+				+ "How to control this");
 	}
 }
